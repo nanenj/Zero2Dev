@@ -64,6 +64,8 @@ group :development, :test do
   gem "better_errors" #better error messages
   gem "binding_of_caller"
   gem 'did_you_mean' #suggestions for misspells
+
+  gem 'simplecov' # Test coverage
 end
 
 group :test do

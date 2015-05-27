@@ -6,7 +6,7 @@
 
 # Ignore bundler config.
 /.bundle
-
+/coverage
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
@@ -20,3 +20,6 @@
 /public/uploads/picture/image/*
 /public/uploads/tmp/*
 /public/system/pictures/images/*
+
+# Ignore simplecov directory
+/simplecov
